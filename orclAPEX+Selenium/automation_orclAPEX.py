@@ -8,8 +8,8 @@ class TestDWShop(unittest.TestCase):
         self.orden_log = 1              
         self.driver = GeneradorDriver().Generar(TipoBrowser.CHROME)
         self.pagina_dws = LoginApex(self.driver)
-        self.login = "criscan" # TEST 5
-        self.clave_login = "criscan" # TEST 5
+        self.login = "tuUsuario" # TEST 5
+        self.clave_login = "TuPassword" # TEST 5
         self.tiempo = 3
     
     # Test 1 cargar pagina

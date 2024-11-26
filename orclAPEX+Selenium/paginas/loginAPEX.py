@@ -6,12 +6,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 
 class LoginApex():
-    boton_login          = (By.XPATH, "//*[@id='B66033079655683731365']") 
-    login = (By.XPATH, "//*[@id='P9999_USERNAME']") 
-    clave_login = (By.XPATH, "//*[@id='P9999_PASSWORD']")
-    usuario_login           = (By.XPATH, "//*[@id='L66033085522920731371']/span[2]") # TEST 5//*[@id="L66033085522920731371"]/span[2]
+    boton_login          = (By.XPATH, "//*[@id='B11409857260876630']")  #XPATH del boton login cambiar por el tuyo
+    login = (By.XPATH, "//*[@id='P9999_USERNAME']") #XPATH del item user cambiar por el tuyo
+    clave_login = (By.XPATH, "//*[@id='P9999_PASSWORD']")#XPATH del item password cambiar por el tuyo
+    usuario_login           = (By.XPATH, "//*//*[@id='L11525360857973883']") # XPATH del user ya logueado, que aparece arriba cambiar por el tuyo
 
-    url = "https://apex.oracle.com/pls/apex/r/paraguayandev/gestion-de-pedidos/"
+    url = "tuweb.com/login"
 
     def __init__(self,driver):
         self.driver = driver
