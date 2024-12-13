@@ -1,2 +1,4 @@
 tenia instalado varias versiones del sdk,pero con este codigo solucione, ta bien!
 flutter config --jdk-dir="C:\Program Files\Java\jdk-20"
+
+
