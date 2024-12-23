@@ -1,3 +1,4 @@
+en la carpeta lib, esta el archivo main.dart, ahi podemos encontrar los codigos
 Guía de Instalación Básica
 1. Instalar Flutter
 Paso 1: Descargar Flutter
