@@ -1,0 +1,79 @@
+Guía de Instalación Básica
+1. Instalar Flutter
+Paso 1: Descargar Flutter
+Ve al sitio oficial de Flutter: https://flutter.dev/docs/get-started/install.
+Descarga el SDK de Flutter para tu sistema operativo:
+Windows: Descarga el archivo .zip.
+macOS: Descarga el archivo .dmg o usa Brew.
+Linux: Usa snap o descarga el archivo .tar.xz.
+Paso 2: Configurar Flutter
+Windows:
+Extrae el archivo .zip en una carpeta de tu elección, por ejemplo, C:\flutter.
+Agrega el directorio flutter/bin a la variable de entorno PATH.
+macOS y Linux:
+Extrae el archivo descargado.
+Abre un terminal y agrega el directorio flutter/bin al archivo .bashrc, .zshrc o .bash_profile.
+Paso 3: Verificar la instalación
+Abre un terminal o línea de comandos.
+Ejecuta:
+bash
+Copiar código
+flutter doctor
+Esto verifica que Flutter esté correctamente instalado y te muestra recomendaciones adicionales.
+2. Instalar Android Studio
+Paso 1: Descargar Android Studio
+Ve a https://developer.android.com/studio.
+Descarga Android Studio para tu sistema operativo.
+Paso 2: Instalar Android Studio
+Sigue el asistente de instalación para completar el proceso.
+Durante la configuración inicial, asegúrate de instalar:
+Android SDK.
+SDK Platform Tools.
+Emuladores (si deseas probar tus aplicaciones en un simulador).
+Paso 3: Configurar Android Studio
+Abre Android Studio y configura el SDK:
+Ve a File > Settings > Appearance & Behavior > System Settings > Android SDK.
+Asegúrate de instalar las versiones recomendadas del SDK (por ejemplo, Android 33 o superior).
+Paso 4: Asegurar la configuración de Flutter
+Instala el plugin de Flutter:
+Ve a File > Settings > Plugins.
+Busca "Flutter" y haz clic en "Install".
+Instala también el plugin de Dart, que es un requisito para Flutter.
+3. Instalar Visual Studio Code (VS Code)
+Paso 1: Descargar e instalar VS Code
+Descarga Visual Studio Code desde: https://code.visualstudio.com/.
+Instala el editor siguiendo el asistente de instalación.
+Paso 2: Configurar VS Code para Flutter
+Abre VS Code y ve a la pestaña de Extensiones (ícono de cuatro cuadrados).
+Busca e instala los siguientes complementos:
+Flutter.
+Dart.
+Paso 3: Configurar el entorno
+Abre un proyecto de Flutter o crea uno nuevo con:
+bash
+Copiar código
+flutter create my_project
+Abre la carpeta del proyecto en VS Code y usa las opciones de depuración (Debug) para correr tu aplicación.
+4. Instalar Java SDK
+Paso 1: Descargar Java SDK
+Ve al sitio oficial de Java: https://www.oracle.com/java/technologies/javase-downloads.html.
+Descarga el JDK más reciente compatible con tu sistema operativo.
+Paso 2: Instalar Java SDK
+Instala el JDK siguiendo las instrucciones.
+Durante la instalación, asegúrate de anotar el directorio de instalación (por ejemplo, C:\Program Files\Java\jdk-XX).
+Paso 3: Configurar la variable de entorno
+Agrega el directorio bin de Java a la variable de entorno PATH.
+En Windows, también debes configurar la variable JAVA_HOME con la ruta al directorio de instalación del JDK.
+Paso 4: Verificar la instalación
+Abre un terminal o línea de comandos.
+Ejecuta:
+bash
+Copiar código
+java -version
+Deberías ver la versión instalada del JDK.
+5. Verificar la Configuración Completa
+Ejecuta en un terminal:
+bash
+Copiar código
+flutter doctor
+Asegúrate de que todos los elementos estén marcados como ✔. Si hay problemas, el comando te dará sugerencias para solucionarlos.
